@@ -1,0 +1,85 @@
+:root {
+    --primary-color: azure;
+    --accent-color: yellowgreen;
+    --head-color: rgb(147, 210, 231);
+    --accent2-color: rgb(180, 176, 176);
+    --accent3-color: darkviolet;
+}
+body {
+    background-color: var(--primary-color);
+}
+.container {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+img {
+  max-width: 100%;
+}
+.menu {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: clamp(14px, 2vw, 16px);
+    text-align: center;
+    background-color: var(--head-color);
+}
+button, .info {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: clamp(14px, 2vw, 18px);
+    font-weight: normal;
+    line-height: 32px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+.parents, .puppies, .social {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--accent-color);
+    color: var(--accent3-color);
+    line-height: 32px;
+    font-size: clamp(14px, 2vw, 18px);
+    font-weight: bold;
+    text-align: center;
+}
+.puppies figure, .parents figure  {
+    max-width: 40%;
+}
+.section-title, .section-title2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration-line: underline;
+}
+.section-title {
+    font-size: clamp(14px, 4vw, 32px);
+}
+.section-title2 {
+    font-size: clamp(14px, 2vw, 24px);
+}
+input,
+textarea,
+select {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    padding: 8px;
+}
+.accent {
+    background-color: var(--accent2-color);
+    font-size: clamp(14px, 2vw, 18px); 
+    font-weight: bold;
+    line-height: 22px;
+    color: var(--accent3-color);
+    text-align: center;
+}
+video {
+    width: 100%;     
+    max-width: 640px;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

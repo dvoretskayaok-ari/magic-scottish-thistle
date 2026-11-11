@@ -54,9 +54,14 @@ ul {
 }
 .section-title {
     font-size: clamp(14px, 4vw, 32px);
+    
 }
 .section-title2 {
     font-size: clamp(14px, 2vw, 24px);
+}
+.section-title::after {
+    content: '★';
+    color: gold;
 }
 input,
 textarea,
